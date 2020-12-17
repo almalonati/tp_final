@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #002B4B;
+	font-family: 'Work Sans', sans-serif;
+}
+main{
+	width: 80%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+width:100%;
+height: 130px;
+background-color:#000000;
+
+}
+section{
+width: 100%;
+height: 600px;
+
+}
+
+
+section#home{
+background-image: url(../img/fondo.jpg)
+}
+
+
+
+
+footer{
+width: 100%;
+height: 70px;
+background-color:#000000;
+}
+
+
+
+#botonera {
+	padding: 0
+}
+
+#botonera li {
+	display: inline;
+}
+
+
+#botonera li a {
+	font-size: 20px;
+	text-decoration: none;
+	float: right;
+	padding: 1%;
+	color: #ffffff;
+	margin-right: 60px;
+	position: relative;
+	top: 35px;
+	border:double 4px #000000;
+-moz-border-radius: 67px;
+-webkit-border-radius: 67px;
+border-radius: 67px;
+	 background-color: #B22C4E;
+
+}
+
+#logo {
+	float: left;
+margin-left: 30px;
+margin-top: 24px;
+}
+
+#alma {
+	font-size: 17px;	
+	float: center;
+	padding-left: 45%;
+	position: relative;
+	top: 25px;
+}
+#alma a{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-style: italic;
+}
+
+
+
+/* index */
+
+#presentacion{
+width:350px;
+height: 19px;
+float: right; 
+margin-right: 60px;
+color: #FFFFFF;
+font-size: 15px;
+  position: relative;
+    top: 140px;
+
+}
+
+
+
+.publi {
+	float: right; 
+margin-right: -350px;
+	position: relative;
+	top: 400px;
+}
+
+.publi img {
+	-moz-box-shadow: 0px 0px 17px #000000;
+-webkit-box-shadow: 0px 0px 17px #000000;
+box-shadow: 0px 0px 17px #000000;
+}
+
+
+
+#presentacion h1	{
+	font-size: 56px;
+	color: #2B4087;
+	margin-bottom: 6px;
+	font-style: italic;
+
+}
+
+
+
+
+
+/* SOBRE EDNA */
+
+#sobre {
+ background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 39%, rgba(156,173,232,1) 100%);
+ padding: 40px;
+
+}
+
+
+.fotoedna {
+	float: left;
+	position: relative;
+	top: 58px;
+	-webkit-filter: saturate(2);
+
+
+}
+
+.fotoedna img {
+	 border-radius: 10px;
+  border:double 5px #B22C4E;
+-moz-border-radius: 43px;
+-webkit-border-radius: 43px;
+border-radius: 60px;
+}
+
+
+
+#quien {
+	width:420px;
+
+float: right; 
+margin-right: 10px;
+font-size: 14px;
+  position: relative;
+    top: 75px;
+	
+
+}
+h2 {
+	font-size: 44px;
+	color: #2B4087;
+	font-style: italic;
+
+}
+h3 {
+	font-size: 28px;
+	color: #002B4B;
+	margin-bottom: 12px;
+	
+}
+
+.destacadas {
+	color: #B22C4E;
+	font-style: italic;
+}
+
+
+
+
+
+/* diseños 2020 */
+
+#trajes {
+	background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 42%, rgba(238,186,198,1) 100%);
+	padding: 40px;
+
+}
+#trajes h3 {
+margin-top: 30px;
+
+
+}
+.descripcion {
+	float: right;
+	width: 400px;
+	font-size: 14px;
+	margin-top: 35px;
+
+
+}
+
+.resaltar {
+	color: #2D4F91;
+	font-style: italic;
+	
+}
+
+.galeria {
+	float: left;
+	width:580px;
+	margin-top: 120px;
+
+}
+.galeria img {
+	margin-right: 5px;
+
+	 border-radius: 10px;
+  border:double 5px #B22C4E;
+-moz-border-radius: 43px;
+-webkit-border-radius: 43px;
+border-radius: 40px;
+}
+
+
+/* CONTACTO*/
+
+#contacto {
+	 background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 39%, rgba(156,173,232,1) 100%);
+ padding: 40px;
+
+}
+
+
+
+#formulario {
+
+	float-left;
+	width: 460px;
+	padding: 15px;
+	background-color: white;
+	margin-top: 35px;
+	border-radius: 40px;
+	
+
+}
+
+#form input, textarea {
+
+font-size: 16px;
+	color: #B22C4E;
+	width: 100%;
+
+
+	border-radius: 4px;
+  border:double 4px #B22C4E;
+-moz-border-radius: 40px;
+-webkit-border-radius: 40px;
+border-radius: 30px;
+margin-bottom: 10px;
+margin-top: 5px;
+}
+
+#form label {
+	font-size: 16px;
+	color: #B22C4E;
+	
+}
+
+
+
+.dudes {
+
+float: right;
+width: 445px;
+font-size: 14px;
+margin-right: 25px;
+margin-top: 48px;
+
+}
+
+
+
+.redes {
+
+	width: 430px;
+	float: right;
+	margin-top: -200px;
+
+	
+}
+h4 {
+	font-size: 23px;
+	color: #B22C4E;
+	margin-bottom: 5px;
+}
+
+.redes img {
+	float: left;
+	margin-right: 10px;
+
+
+
+}

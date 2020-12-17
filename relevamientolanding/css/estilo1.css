@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #FFFFFF;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1rem;
+	min-height: 100%; 
+	background-color: white;
+
+}
+
+
+html{
+	height: 100%;
+}
+
+
+.grid_container {
+gap:15px;
+display: grid;
+grid-template:
+"header"   90px  
+"tipo"     auto
+"croma"    auto
+"marca"    auto
+"footer"   40px
+;
+}
+
+h1 {
+	color: #B22C4E;
+	margin-bottom: 8px;
+	font-size: 1.7rem;
+}
+ 
+h2 {
+	color: #002B4B;
+	font-style: italic;
+	margin-bottom: 5px;
+	font-size: 1.4rem;
+	margin-top: 15px;
+}
+
+img {
+	margin-top: 10px;
+
+}
+
+
+.header{
+	grid-area: header;
+	background-color: #002B4B;
+	width: 100%;
+	padding-top: 1.3rem;
+   padding-left: 1rem;
+}
+
+
+#botonera {
+	padding: 0
+
+}
+
+#botonera li {
+	display: inline;
+}
+
+
+#botonera li a {
+
+	font-size: 16px;
+	text-decoration: none;
+	float: right;
+	padding: 1%;
+	color: #B22C4E;
+	margin-right: 28px;
+	position: relative;
+	border:double 4px #000000;
+-moz-border-radius: 67px;
+-webkit-border-radius: 67px;
+border-radius: 67px;
+	 background-color: white;
+
+
+}
+
+
+
+.tipo{
+	grid-area: tipo;
+	 padding-left: 1.5rem;
+	 padding-right: 1.5rem;
+	 justify-self: center;
+ 
+}
+
+#tipo {
+	display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+
+
+
+
+.croma{
+	grid-area: croma;
+	 padding-left: 1.5rem;
+	 padding-right: 1.5rem;
+	 justify-self: center;
+  
+}
+
+#croma  {
+	display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+
+
+
+.marca{
+	grid-area: marca;
+	 padding-left: 1.5rem;
+	 padding-right: 1.5rem;
+	 justify-self: center;
+
+}
+
+#marca {
+	display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.footer{
+	display: flex;
+align-items: center;
+justify-content: center;
+	grid-area: footer;
+	background-color: #002B4B;
+	width: 100%;
+	padding-top: 5px;
+	 padding-left: 1.5rem;
+	 padding-right: 1.5rem;
+  
+}
+
+.footer #volver a{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-style: italic;
+
+}
+
+
+
+
+
+
+@media (min-width: 600px) {
+	.grid_container {
+		grid-template:
+		"header         header"    100px
+		"tipo           marca  "   auto
+		"croma          marca  "   auto               
+		"footer         footer"    45px /
+		1fr              1fr;
+	}
+
+.header {
+	width: 100%;
+	padding-right: 30px;
+
+}
+
+.tipo {
+	width: 90%;
+	margin-bottom:30px;
+
+}
+
+
+
+.marca{
+	width: 90%;
+	margin-top: 35px;
+}
+
+.marca img{
+	margin-top: 55px;
+
+}
+
+.croma {
+	width: 90%;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+ /* RELEVAMIENTO  /*/*
+
+
+
+.grid_container2 {
+gap:15px;
+display: grid;
+grid-template:
+"header"   90px  
+"edna"     auto
+"personalidad"    auto
+"apariencia"    auto
+"pelicula"    auto
+"footer"   40px
+;
+}
+
+
+
+
+.edna {
+	grid-area: edna;
+	 padding-left: 1.5rem;
+	 padding-right: 1.5rem;
+	
+}
+
+.edna img {
+	 border-radius: 10px;
+  border:double 5px #2B4087;
+-moz-border-radius: 40px;
+-webkit-border-radius: 40px;
+border-radius: 50px;
+
+}
+
+.personalidad {
+	grid-area: personalidad;
+	 padding-left: 1.5rem;
+	 padding-right: 1.5rem;
+	 justify-self: center;
+
+}
+
+
+.apariencia {
+	grid-area: apariencia;
+	 padding-left: 1.5rem;
+	 padding-right: 1.5rem;
+	 justify-self: center;
+
+}
+
+
+.pelicula {
+	grid-area:pelicula;
+	 padding-left: 1.5rem;
+	 padding-right: 1.5rem;
+	 justify-self: center;
+
+}
+
+
+
+
+@media (min-width: 600px) {
+	.grid_container2 {
+		grid-template:
+		"header             header "       100px
+		"edna               pelicula "   auto
+		"personalidad       apariencia "     auto               
+		"footer             footer "       45px /
+		1fr             1fr;
+	}
+
+
+
+.personalidad {
+	margin-top:10px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+@media (min-width: 950px) {
+	.grid_container2 {
+		grid-template:
+		"header         header          header"    100px
+		"edna           personalidad    pelicula"   auto
+		"edna          apariencia       pelicula"   auto               
+		"footer         footer       footer"    45px /
+		0.6fr              1fr          1fr;
+	}
+
+.pelicula {
+	margin-right: 30px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+.edna {
+	margin-left: 30px;
+}
+
+.personalidad {
+	margin-top: 35px;
+}
+ .apariencia h2 {
+ 	
+ }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* visiblilidad  /*/*
+
+
+
+
+.grid_container3 {
+gap:15px;
+display: grid;
+grid-template:
+"header"   90px  
+"tablet"    auto
+"compu"    auto
+"celu"     auto
+"footer"   40px
+;
+}
+
+
+
+.celu {
+	grid-area: celu;
+	 padding-left: 1rem;
+	 padding-right: 1rem;
+
+}
+ 
+
+
+.tablet {
+	grid-area: tablet;
+	 padding-left: 1rem;
+	 padding-right: 1rem;
+
+}
+
+.tablet img{
+	max-width: 90%;
+}
+
+
+
+
+
+.compu {
+	grid-area: compu;
+	 padding-left: 1rem;
+	 padding-right: 1rem;
+}
+
+.compu img{
+	max-width: 92%;
+}
+
+
+
+
+
+@media (min-width: 600px) {
+	.grid_container3 {
+		grid-template:
+		"header         header   "    100px
+		"tablet          celu  "   auto  
+		"compu           celu  "   auto           
+		"footer         footer  "    45px /
+		1.8fr              1fr ;
+	}
+
+
+
+.tablet {
+	padding-left: 60px;
+}
+
+
+.compu {
+	padding-left: 60px;
+}
+
+
+
+}
